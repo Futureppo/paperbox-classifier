@@ -1,0 +1,23 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Users create their own annotations, splits and experiments.
+/data/
+/runs/
+*.pt
+*.pth
+*.zip
+*.rar
+.env
+.env.*
+
+# Intentionally tracked: source_frames/, reference_labels/, results/, docs/.

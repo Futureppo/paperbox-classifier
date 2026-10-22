@@ -1,0 +1,5 @@
+# Install torch/torchvision separately using setup_4060.ps1.
+numpy==2.2.6
+Pillow==11.2.1
+matplotlib==3.10.3
+gradio==5.49.1

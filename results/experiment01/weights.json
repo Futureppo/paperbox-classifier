@@ -1,0 +1,16 @@
+{
+  "filename": "paperbox-resnet18-best.pt",
+  "bytes": 44791691,
+  "sha256": "7c96412a3a3e1ef59af302851aa4cc558905c59d2bc5287f6c7a6dc473f5088e",
+  "architecture": "resnet18",
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "selected_epoch": 15,
+  "dataset_fingerprint": "525b53103415545ec6a4a9d98e86153b8b4314c0b33bb6146cb32f7fa9304ee1"
+}

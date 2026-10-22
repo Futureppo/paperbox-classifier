@@ -1,0 +1,16 @@
+{
+  "source_jpeg_count": 1128,
+  "source_counts_by_date": {
+    "2026-04-25": 156,
+    "2026-06-05": 14,
+    "2026-06-25": 254,
+    "2026-06-30": 26,
+    "2026-08-13": 548,
+    "2026-09-08": 16,
+    "2026-09-09": 114
+  },
+  "copied_count": 84,
+  "requested_per_day": 12,
+  "method": "Evenly spaced sorted file positions within each date; exact duplicate bytes removed.",
+  "labels": "Unannotated. This selection does not guarantee class balance or independent objects."
+}

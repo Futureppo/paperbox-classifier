@@ -1,0 +1,103 @@
+{
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "sample_count": 6,
+  "per_class": [
+    {
+      "label": "0",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "1",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "2",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "3",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "4",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "5",
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "dataset_fingerprint": "525b53103415545ec6a4a9d98e86153b8b4314c0b33bb6146cb32f7fa9304ee1",
+  "checkpoint": "runs\\experiment01\\best.pt",
+  "selected_epoch": 15,
+  "scope": "Six-class single-carton image classification; not robot grasp success rate."
+}
