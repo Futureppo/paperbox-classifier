@@ -1,5 +1,8 @@
 name: Data and code checks
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
@@ -10,8 +13,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install Pillow==11.2.1
-      - run: python -m unittest discover -s tests -v
-      - run: python check_data.py --sources source_frames
-      - run: python scripts/verify_release.py
-      - run: python -m compileall -q .
+      - name: Install test dependency
+        run: python -m pip install Pillow==11.2.1
+      - name: Test data validation and splitting
+        run: python -m unittest discover -s tests -v
+      - name: Verify bundled source images
+        run: python check_data.py --sources source_frames
+      - name: Verify published experiment records
+        run: python scripts/verify_release.py
+      - name: Check Python syntax
+        run: python -m compileall -q .
